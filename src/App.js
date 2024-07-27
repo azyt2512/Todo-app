@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 import TodoPreview from './components/TodoPreview';
@@ -17,7 +16,7 @@ function App() {
           <div className='app'>
             <nav className="navbar navbar-light sticky-top py-3 shadow mb-4" style={{ backgroundColor: '#ebff96' }}>
               <div className="container-fluid fs-4">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                   <span className="material-symbols-outlined align-middle fs-3">
                     receipt_long
                   </span>
